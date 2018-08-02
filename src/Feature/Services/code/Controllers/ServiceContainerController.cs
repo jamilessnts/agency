@@ -24,7 +24,6 @@ namespace Agency.Feature.Services.Controllers
         {
             var serviceItem = this.GetDataSourceItem<ServiceItem>();
             return View(serviceItem);
-            //return View("~/Views/ServiceItem/ServicesItem.cshtml", serviceItem);
 
         }
     }

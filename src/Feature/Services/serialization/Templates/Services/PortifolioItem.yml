@@ -1,20 +1,20 @@
 ﻿---
-ID: "2aab3803-9cf9-4077-b79b-211b64fe10ae"
+ID: "3fcf8127-d125-40c5-8b76-56ed63aa3219"
 Parent: "b427c8ae-2424-44aa-a65c-831e2d3aa7ea"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Services/ServiceItem
+Path: /sitecore/templates/Feature/Services/PortifolioItem
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/check.png
+  Value: Applications/32x32/form_blue.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{7A385864-3322-451C-A8A6-96C32E423275}"
+  Value: "{036CC99F-4D9F-4BEC-8BB3-97BBE1B1CC36}"
 Languages:
 - Language: en
   Versions:
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180802T020141Z
+      Value: 20180802T165943Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

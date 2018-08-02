@@ -13,8 +13,8 @@ namespace Agency.Feature.Services.Models
         // Exemplo: o campo do template é: Imagem Link
         // A tag usada deve ser: [SitecoreField("Imagem Link")] logo acima do parametro declarado.
 
-        public Image ImagemIcon { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
+        public virtual Image ImagemIcon { get; set; }
+        public virtual string Title { get; set; }
+        public virtual string Description { get; set; }
     }
 }

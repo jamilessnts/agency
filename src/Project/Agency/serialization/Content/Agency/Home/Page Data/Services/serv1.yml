@@ -11,8 +11,7 @@ Languages:
     Fields:
     - ID: "08443ed2-3dc4-4989-afdf-84228db4486e"
       Hint: Image
-      Value: |
-        <image mediaid="{63EA3A19-B40F-4143-963E-6E73E8AE4603}" />
+      Value: 
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180802T023333Z
