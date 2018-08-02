@@ -8,7 +8,7 @@ using Agency.Feature.Services.Models;
 
 namespace Agency.Feature.Services.Controllers
 {
-    public class ServiceItemController : GlassController
+    public class ServiceItemControllerDepreceated : GlassController
     {
         // GET: ServiceItem
         public ActionResult ServiceItem()

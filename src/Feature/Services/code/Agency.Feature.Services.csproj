@@ -112,8 +112,8 @@
     <None Include="packages.config" />
     <Content Include="Views\ServiceContainer\ServiceContainer.cshtml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Views\ServiceContainer\ServiceItem.cshtml" />
     <None Include="Views\Web.config" />
-    <Content Include="Views\ServiceItem\ServiceItem.cshtml" />
     <None Include="Views\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,12 +132,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ServiceContainerController.cs" />
-    <Compile Include="Controllers\ServiceItemController.cs" />
+    <Compile Include="Controllers\ServiceItemControllerDepreceated.cs" />
     <Compile Include="Models\ServiceContainer.cs" />
     <Compile Include="Models\ServiceItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="fonts\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Orm\code\Agency.Foundation.Orm.csproj">
       <Project>{BCFE3B74-7721-4B2A-8E6B-28B04660409B}</Project>

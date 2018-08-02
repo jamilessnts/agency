@@ -28,7 +28,7 @@ Languages:
       Value: 20180802T020351Z
     - ID: "269e36b3-8f23-4d0d-9ce5-d580e7525a8d"
       Hint: Title
-      Value: $name Title
+      Value: $name
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
