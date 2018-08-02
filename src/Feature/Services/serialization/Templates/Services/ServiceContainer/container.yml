@@ -1,0 +1,18 @@
+﻿---
+ID: "0e850c4b-18bd-4de0-ad45-0197bf12a739"
+Parent: "ff22b32e-f762-4e86-b1ea-d03d34031144"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Services/ServiceContainer/container
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T012624Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
