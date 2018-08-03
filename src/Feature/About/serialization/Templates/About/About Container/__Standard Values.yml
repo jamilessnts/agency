@@ -1,0 +1,24 @@
+﻿---
+ID: "0c0ce961-f526-4baf-a476-80aa8cf35d4c"
+Parent: "b2b0b8b3-1e69-44da-addb-eab6d92d2c1e"
+Template: "b2b0b8b3-1e69-44da-addb-eab6d92d2c1e"
+Path: /sitecore/templates/Feature/About/About Container/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180803T162210Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "81986a7b-6d93-4e22-9fc5-c397b2b183f6"
+      Hint: Subtitulo
+      Value: Lorem ipsum dolor sit amet consectetur.
+    - ID: "ae456b88-d058-4108-ac1c-469b98376780"
+      Hint: Titulo
+      Value: ABOUT

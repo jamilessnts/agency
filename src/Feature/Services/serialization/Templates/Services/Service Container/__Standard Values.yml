@@ -1,0 +1,24 @@
+﻿---
+ID: "9f96dace-820c-4523-a161-21658e49d0ed"
+Parent: "ff22b32e-f762-4e86-b1ea-d03d34031144"
+Template: "ff22b32e-f762-4e86-b1ea-d03d34031144"
+Path: /sitecore/templates/Feature/Services/Service Container/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a005f77-1311-4e78-94d4-9821b5642e21"
+      Hint: Subtitle
+      Value: IT'S NICE TO MEET YOU
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180802T013821Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cd6db75f-0741-4608-a042-3afbebe0f9a7"
+      Hint: Title
+      Value: "Welcome To Our Studio!"

@@ -1,0 +1,29 @@
+﻿---
+ID: "ae0694e3-d848-4acd-8923-10b50e24591c"
+Parent: "4325dd8e-2e3a-45e0-85fe-234242b3d044"
+Template: "3fcf8127-d125-40c5-8b76-56ed63aa3219"
+Path: /sitecore/content/Agency/Home/Page Data/Portifolios/Threads
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180803T135431Z
+    - ID: "6eb3b059-3a2b-445b-a517-c4a4f3f9a3c0"
+      Hint: Image
+      Value: |
+        <image mediaid="{8DBCBACF-7316-46B4-B36C-029612A09E0E}" />
+    - ID: "eeb13e14-a768-4bad-97a8-5f50693e32e3"
+      Hint: Subtitle
+      Value: Illustration
+    - ID: "f14eca0b-7f7d-4d06-9dbb-3e9441b4a1dd"
+      Hint: Title
+      Value: Threads

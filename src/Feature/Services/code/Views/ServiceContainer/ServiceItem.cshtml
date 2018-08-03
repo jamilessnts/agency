@@ -11,9 +11,11 @@
     {
         <div class="col-md-4">
             <span class="fa-stack fa-4x">
-                @*<i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="@Model.ImagemIcon"></i>*@
+                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                <i class="@Model.ImagemIcon"></i>
+
                 @*@RenderImage(@Model.ImagemIcon)*@
+                @*<img class="img-fluid" src=@RenderImage(@Model.ImagemIcon)" alt=""/>*@
             </span>
             <h4 class="service-heading">@Editable(x => x.Title)</h4>
             <p class="text-muted">@Editable(x => x.Description)</p>
@@ -24,8 +26,9 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
 {
     <div class="col-md-4">
         <span class="fa-stack fa-4x">
-            @*<i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="@Model.ImagemIcon"></i>*@
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="@Model.ImagemIcon"></i>
+
             @*@RenderImage(@Model.ImagemIcon)*@
         </span>
         <h4 class="service-heading">@Model.Title</h4>

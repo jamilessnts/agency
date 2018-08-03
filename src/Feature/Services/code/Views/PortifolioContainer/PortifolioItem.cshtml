@@ -1,0 +1,90 @@
+﻿@using Agency.Feature.Services.Models
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.Services.Models.PortifolioItem>
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Page Header - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "img-fluid" })
+            </a>
+            <div class="portfolio-caption">
+                <h4>@Model.Title</h4>
+                <p class="text-muted">@Model.Subtitle</p>
+            </div>
+        </div>
+
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+
+            <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                </div>
+            </div>
+            @RenderImage(x => x.Image, isEditable: false, parameters: new { @class = "img-fluid" })
+        </a>
+        <div class="portfolio-caption">
+            <h4>@Model.Title</h4>
+            <p class="text-muted">@Model.Subtitle</p>
+        </div>
+    </div>
+
+}
+
+<!--Modal, parte da pagina, que a imagem é clicada e entao uma outra imagem eh mostrada.-->
+<!-- Modal -->
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+
+                            <!-- Project Details Go Here -->
+                            <h2 class="text-uppercase">@Model.TitleModal</h2>
+                            <p class="item-intro text-muted">@Model.SubtitleModal</p>
+
+                            @*@RenderImage(x => x.ImageModal, isEditable: false, parameters: new { @class = "mg-fluid d-block mx-auto" })*@
+
+
+                            <p>@Model.DescriptionModal</p>
+                            <ul class="list-inline">
+                                <li>Date: @Model.Date</li>
+                                <li>Client: @Model.Client</li>
+                                <li>Category: @Model.Category</li>
+                            </ul>
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fa fa-times"></i>
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

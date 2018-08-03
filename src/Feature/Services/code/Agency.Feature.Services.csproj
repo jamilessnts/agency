@@ -135,6 +135,7 @@
     <Content Include="Views\ServiceContainer\ServiceItem.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\PortifolioContainer\PortifolioContainer.cshtml" />
+    <Content Include="Views\PortifolioContainer\PortifolioItem.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Views\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -156,6 +157,7 @@
     <Compile Include="Controllers\PortifolioContainerController.cs" />
     <Compile Include="Controllers\ServiceContainerController.cs" />
     <Compile Include="Models\PortifolioContainer.cs" />
+    <Compile Include="Models\PortifolioItem.cs" />
     <Compile Include="Models\ServiceContainer.cs" />
     <Compile Include="Models\ServiceItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

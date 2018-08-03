@@ -52,9 +52,23 @@ Languages:
               s:ph="teste" />
             <r
               uid="{E4C75F68-9601-45A9-B21C-73541BB3ABE1}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{5F5F88F2-CF04-49A6-BA0D-5CF9D3487217}']"
               s:ds="{4325DD8E-2E3A-45E0-85FE-234242B3D044}"
               s:id="{24C181CA-6043-4000-8278-9990FED9F57B}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{98C7FEE5-708F-4209-8DC4-6A1B38A6E727}"
+              p:after="r[@uid='{E4C75F68-9601-45A9-B21C-73541BB3ABE1}']"
+              s:ds="{AE0694E3-D848-4ACD-8923-10B50E24591C}"
+              s:id="{B3C29953-EB56-46C9-8A94-D7FFC054E358}"
+              s:par=""
+              s:ph="portifolio-item" />
+            <r
+              uid="{C0DD65D1-7DA7-4716-B840-435D374394BE}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{CB000EAE-DDF4-4CB3-9424-6B297CB74898}"
               s:par=""
               s:ph="content" />
           </d>
