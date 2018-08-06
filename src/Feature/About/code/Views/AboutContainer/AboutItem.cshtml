@@ -1,7 +1,6 @@
-﻿@using Glass.Mapper.Sc.Web.Mvc
-@using Agency.Feature.About.Models
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.About.Models.AboutItem>
+@using Glass.Mapper.Sc.Web.Mvc
 
-@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<AboutItem>
 @{
     var cssClass = Model.Inverted ? "timeline-inverted" : "";
 }

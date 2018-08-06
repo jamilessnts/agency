@@ -2,7 +2,7 @@
 ID: "40654950-a70e-4cc9-adc3-2cc61e60fbed"
 Parent: "9d1f2bed-aa3d-4842-9f41-c4ce2bfa4183"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/About/Team Item/content/Name
+Path: /sitecore/templates/Feature/About/Team Item/content/Fname
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -13,6 +13,10 @@ SharedFields:
   Value: 200
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: $name
   Versions:
   - Version: 1
     Fields:

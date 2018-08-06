@@ -1,17 +1,20 @@
 ﻿---
-ID: "bc67c873-1b93-48ea-bfed-d0e061512500"
+ID: "a908f78c-309d-4d21-8b90-b1b889ecf052"
 Parent: "61b22e66-bc16-456b-9100-226d16ea918d"
 Template: "2aab3803-9cf9-4077-b79b-211b64fe10ae"
-Path: /sitecore/content/Agency/Home/Page Data/Services/serv3
+Path: /sitecore/content/Agency/Home/Page Data/Services/Responsive Design
 DB: master
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "08443ed2-3dc4-4989-afdf-84228db4486e"
+      Hint: ImagemIcon
+      Value: "fa fa-laptop fa-stack-1x fa-inverse"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180802T114800Z
+      Value: 20180802T114701Z
     - ID: "269e36b3-8f23-4d0d-9ce5-d580e7525a8d"
       Hint: Title
-      Value: serv3
+      Value: serv2

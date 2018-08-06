@@ -1,8 +1,7 @@
-﻿
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.About.Models.TeamItem>
 @using Glass.Mapper.Sc.Web.Mvc
-@using Agency.Feature.About.Models
 
-@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<TeamItem>
+
 
 @if (IsInEditingMode)
 {
@@ -15,9 +14,11 @@
         <div class="col-sm-4">
             <div class="team-member">
                 @RenderImage(x => x.Image, isEditable: true, parameters: new { @Class = "mx-auto rounded-circle" })
-                <h4>@Editable(x => x.Name)</h4>
+                <h4>@Editable(x => x.Fname)</h4>
                 <p class="text-muted">@Editable(x => x.Job)</p>
+                
                 <ul class="list-inline social-buttons">
+
                     <li class="list-inline-item">
                         @RenderLink(x => x.Twitter, new { @class = "fa fa-twitter" }, true)
                     </li>

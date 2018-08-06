@@ -35,8 +35,8 @@ Languages:
       Value: |
         <link text="Facebook" linktype="external" url="http://facebook.com" anchor="" target="" />
     - ID: "40654950-a70e-4cc9-adc3-2cc61e60fbed"
-      Hint: Name
-      Value: $name
+      Hint: Fname
+      Value: 
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

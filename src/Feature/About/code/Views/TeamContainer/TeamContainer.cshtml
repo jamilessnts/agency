@@ -1,7 +1,6 @@
-﻿@using Glass.Mapper.Sc.Web.Mvc
-@using Agency.Feature.About.Models
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.About.Models.TeamContainer>
+@using Glass.Mapper.Sc.Web.Mvc
 
-@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<TeamContainer>
 
 @if (IsInEditingMode)
 {
@@ -20,7 +19,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    @*@Html.Sitecore().Placeholder("team-item")*@
+                    @Html.Sitecore().Placeholder("team-item")
                 </div>
             </div>
 
@@ -43,7 +42,7 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
                 </div>
             </div>
             <div class="row">
-                @*@Html.Sitecore().Placeholder("team-item")*@
+                @Html.Sitecore().Placeholder("team-item")
             </div>
         </div>
 
