@@ -1,0 +1,24 @@
+﻿---
+ID: "b3f87345-da4e-4a6c-bd28-bd7f5a12fbea"
+Parent: "23ff36ec-77b8-43fb-9776-fdd760b35dcb"
+Template: "23ff36ec-77b8-43fb-9776-fdd760b35dcb"
+Path: /sitecore/templates/Feature/Services/Portifolio Container/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T132240Z
+    - ID: "3494537e-5bea-43e4-a80d-fcf422ac86c0"
+      Hint: Subtitle
+      Value: Lorem ipsum dolor sit amet consectetur.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cb3d77cf-3558-4931-b2f5-a3d51b3ce267"
+      Hint: Title
+      Value: PORTFOLIO

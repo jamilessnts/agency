@@ -1,16 +1,16 @@
 ﻿---
-ID: "eeb13e14-a768-4bad-97a8-5f50693e32e3"
-Parent: "5bdb804d-c4c8-46f3-8436-dad8d7ea400c"
+ID: "62c0fd0b-5025-45b9-b208-c90df96c1768"
+Parent: "3b839ecd-2ec1-4bb8-bb20-69c176d54635"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Services/Portifolio Item/content/Subtitle
+Path: /sitecore/templates/Feature/About/About Item/content/Inverted
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180802T173100Z
+      Value: 20180806T103619Z

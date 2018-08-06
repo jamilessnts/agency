@@ -1,8 +1,8 @@
 ﻿---
-ID: "5053e35c-1531-49a6-86d4-bfb2c7be7911"
-Parent: "5bdb804d-c4c8-46f3-8436-dad8d7ea400c"
+ID: "e0ff77dd-f1bd-4447-8c0b-219f4705354f"
+Parent: "9d1f2bed-aa3d-4842-9f41-c4ce2bfa4183"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Services/Portifolio Item/content/SubtitleModal
+Path: /sitecore/templates/Feature/About/Team Item/content/Job
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180803T165719Z
+      Value: 20180806T114159Z

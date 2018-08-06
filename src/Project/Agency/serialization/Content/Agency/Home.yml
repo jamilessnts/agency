@@ -66,11 +66,32 @@ Languages:
               s:ph="portifolio-item" />
             <r
               uid="{C0DD65D1-7DA7-4716-B840-435D374394BE}"
-              p:after="*[1=2]"
-              s:ds=""
+              p:after="r[@uid='{98C7FEE5-708F-4209-8DC4-6A1B38A6E727}']"
+              s:ds="{24E090B7-8D15-4D04-BF29-80E349945408}"
               s:id="{CB000EAE-DDF4-4CB3-9424-6B297CB74898}"
               s:par=""
               s:ph="content" />
+            <r
+              uid="{EB4980D9-C1CF-4D3B-9725-F45FAC736DA9}"
+              p:after="r[@uid='{C0DD65D1-7DA7-4716-B840-435D374394BE}']"
+              s:ds="{C1453148-3513-48CB-8C25-D4B07EF69787}"
+              s:id="{5B697F3E-AC62-4160-9371-5A8ECF5F85CE}"
+              s:par=""
+              s:ph="about-item" />
+            <r
+              uid="{F2C7AAE8-8E1D-44EB-87B2-F9D5AFE0B6C4}"
+              p:after="r[@uid='{EB4980D9-C1CF-4D3B-9725-F45FAC736DA9}']"
+              s:ds="{D83B234B-E636-4975-970B-306018F6CAFC}"
+              s:id="{11141853-EFCF-405E-AF0C-C171D13B6D20}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{C565A124-8A8E-4637-AF1E-6118F79E8AAD}"
+              p:after="*[1=2]"
+              s:ds="{97E6AAEE-E044-4A86-A0E3-353E76F022EE}"
+              s:id="{5B697F3E-AC62-4160-9371-5A8ECF5F85CE}"
+              s:par=""
+              s:ph="about-item" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"

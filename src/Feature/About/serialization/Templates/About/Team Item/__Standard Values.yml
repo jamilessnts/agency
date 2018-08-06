@@ -1,0 +1,50 @@
+﻿---
+ID: "a4d55ad0-4201-4776-95a5-614ca1655857"
+Parent: "34c9d2b2-541f-403e-b6ad-2826894fe708"
+Template: "34c9d2b2-541f-403e-b6ad-2826894fe708"
+Path: /sitecore/templates/Feature/About/Team Item/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <p
+          key="content"
+          uid="{3723B0F4-CF43-4007-A542-5938AE4326A9}"
+          md="{7E52847F-61EA-4228-AE4F-3B089D790519}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2064fc4a-0845-4b1a-a950-eefdee59cbbc"
+      Hint: Linkedin
+      Value: |
+        <link text="Linkedin" linktype="external" url="https://br.linkedin.com/" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T114808Z
+    - ID: "26499a9d-001a-442c-a9dc-30ed647b6efe"
+      Hint: Facebook
+      Value: |
+        <link text="Facebook" linktype="external" url="http://facebook.com" anchor="" target="" />
+    - ID: "40654950-a70e-4cc9-adc3-2cc61e60fbed"
+      Hint: Name
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a7297f7d-2f0a-4bc2-881e-431280f276dc"
+      Hint: Twitter
+      Value: |
+        <link text="Twitter" linktype="external" url="https://twitter.com/" anchor="" target="" />
+    - ID: "e0ff77dd-f1bd-4447-8c0b-219f4705354f"
+      Hint: Job
+      Value: Job

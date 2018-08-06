@@ -1,8 +1,8 @@
 ﻿---
-ID: "f14eca0b-7f7d-4d06-9dbb-3e9441b4a1dd"
-Parent: "5bdb804d-c4c8-46f3-8436-dad8d7ea400c"
+ID: "40654950-a70e-4cc9-adc3-2cc61e60fbed"
+Parent: "9d1f2bed-aa3d-4842-9f41-c4ce2bfa4183"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Services/Portifolio Item/content/Title
+Path: /sitecore/templates/Feature/About/Team Item/content/Name
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180802T173100Z
+      Value: 20180806T114159Z

@@ -2,7 +2,7 @@
 ID: "4325dd8e-2e3a-45e0-85fe-234242b3d044"
 Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
 Template: "23ff36ec-77b8-43fb-9776-fdd760b35dcb"
-Path: /sitecore/content/Agency/Home/Page Data/Portifolios
+Path: /sitecore/content/Agency/Home/Page Data/Portfolios
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"

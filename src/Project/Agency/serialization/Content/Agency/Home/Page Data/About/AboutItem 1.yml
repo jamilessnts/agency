@@ -1,0 +1,27 @@
+﻿---
+ID: "c1453148-3513-48cb-8c25-d4b07ef69787"
+Parent: "24e090b7-8d15-4d04-bf29-80e349945408"
+Template: "93646a3b-c296-42bb-9cae-1915a53e1aaa"
+Path: /sitecore/content/Agency/Home/Page Data/About/AboutItem 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T104842Z
+    - ID: "b6ce973e-2be0-4729-9fc1-ea4825796809"
+      Hint: Description
+      Value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    - ID: "c489ac2c-84b0-4c0d-88dc-f7bb9d8e89ba"
+      Hint: Title
+      Value: "2009-2011"
+    - ID: "c58865db-f00d-46ee-a79e-42d0e26dd0ec"
+      Hint: Subtitle
+      Value: Our Humble Beginnings
+    - ID: "d49e8e49-f00d-4af2-94d8-04cca78d2a60"
+      Hint: Image
+      Value: |
+        <image mediaid="{9E26330A-DD63-49CD-85C5-5DBFB1E60116}" />

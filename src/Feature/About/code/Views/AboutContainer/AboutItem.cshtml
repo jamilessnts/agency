@@ -1,0 +1,53 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Agency.Feature.About.Models
+
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<AboutItem>
+@{
+    var cssClass = Model.Inverted ? "timeline-inverted" : "";
+}
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>About Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <li class="@cssClass">
+            <div class="timeline-image">
+                @RenderImage(x => x.Image, isEditable: true, parameters: new { @class = "rounded-circle img-fluid" })
+            </div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4>@Editable(x => x.Title)</h4>
+                    <h4 class="subheading">@Editable(x => x.Subtitle)</h4>
+                </div>
+                <div class="timeline-body">
+                    <p class="text-muted">
+                        @Editable(x => x.Description)
+                    </p>
+                </div>
+            </div>
+        </li>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <li class="@cssClass">
+        <div class="timeline-image">
+            @RenderImage(x => x.Image, isEditable: false, parameters: new { @class = "rounded-circle img-fluid" })
+        </div>
+        <div class="timeline-panel">
+            <div class="timeline-heading">
+                <h4>@Model.Title</h4>
+                <h4 class="subheading">@Model.Subtitle</h4>
+            </div>
+            <div class="timeline-body">
+                <p class="text-muted">
+                    @Html.Sitecore().Field("Description")
+                </p>
+            </div>
+        </div>
+    </li>
+}

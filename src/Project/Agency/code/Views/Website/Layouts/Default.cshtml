@@ -30,6 +30,54 @@
 </head>
 
 <body id="page-top">
+
+    <!-- Modal -->
+    <div class="portfolio-modal modal fade" id="portfolio" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase" id="projectName">Project Name</h2>
+                                <p class="item-intro text-muted" id="projectTitle">Subtitle</p>
+                                <div id="projectImage">Teste</div>
+                                <p id="projectText">XX</p>
+                                <ul class="list-inline">
+                                    <li id="projectDate">Date: XX</li>
+                                    <li id="projectClient">Client: XX</li>
+                                    <li id="projectCategory">Category: XX</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fa fa-times"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function portfolioModal(project) {
+            $("#portfolio .modal-body #projectName").html(project.projecname)
+            $("#portfolio .modal-body #projectTitle").html(project.projecttitle)
+            $("#portfolio .modal-body #projectImage").html(project.image)
+            $("#portfolio .modal-body #projectText").html(project.projecttext)
+            $("#portfolio .modal-body #projectDate").html(project.date)
+            $("#portfolio .modal-body #projectClient").html(project.client)
+            $("#portfolio .modal-body #projectCategory").html(project.category)
+
+        }
+    </script>
+
     <!-- Navigation -->
     @Html.Sitecore().Placeholder("navigation")
 
@@ -53,9 +101,5 @@
     <!-- Custom scripts for this template -->
     <script src="~/assets/js/agency.min.js"></script>
 
-    @*<script src="~/assets/js/jquery.min.js"></script>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <h2>Teste</h2>
-    </div>*@
 </body>
 </html>

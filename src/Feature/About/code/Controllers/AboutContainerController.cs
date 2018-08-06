@@ -16,5 +16,11 @@ namespace Agency.Feature.About.Controllers
             var aboutContainer = this.GetDataSourceItem<AboutContainer>();
             return View(aboutContainer);
         }
+
+        public ActionResult AboutItem()
+        {
+            var aboutItem = this.GetDataSourceItem<AboutItem>();
+            return View(aboutItem);
+        }
     }
 }

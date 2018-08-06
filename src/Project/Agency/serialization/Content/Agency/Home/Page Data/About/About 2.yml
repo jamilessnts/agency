@@ -1,0 +1,31 @@
+﻿---
+ID: "97e6aaee-e044-4a86-a0e3-353e76f022ee"
+Parent: "24e090b7-8d15-4d04-bf29-80e349945408"
+Template: "93646a3b-c296-42bb-9cae-1915a53e1aaa"
+Path: /sitecore/content/Agency/Home/Page Data/About/About 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180806T140730Z
+    - ID: "62c0fd0b-5025-45b9-b208-c90df96c1768"
+      Hint: Inverted
+      Type: Checkbox
+      Value: 1
+    - ID: "b6ce973e-2be0-4729-9fc1-ea4825796809"
+      Hint: Description
+      Value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    - ID: "c489ac2c-84b0-4c0d-88dc-f7bb9d8e89ba"
+      Hint: Title
+      Value: About 2
+    - ID: "c58865db-f00d-46ee-a79e-42d0e26dd0ec"
+      Hint: Subtitle
+      Value: An Agency is Born
+    - ID: "d49e8e49-f00d-4af2-94d8-04cca78d2a60"
+      Hint: Image
+      Value: |
+        <image mediaid="{2246E31F-CB5C-43FA-970B-CEC64FC4203A}" />

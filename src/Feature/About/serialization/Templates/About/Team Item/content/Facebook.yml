@@ -1,16 +1,16 @@
 ﻿---
-ID: "ae456b88-d058-4108-ac1c-469b98376780"
-Parent: "f9ab684f-b564-4687-83d6-411e84eeae91"
+ID: "26499a9d-001a-442c-a9dc-30ed647b6efe"
+Parent: "9d1f2bed-aa3d-4842-9f41-c4ce2bfa4183"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/About/About Container/content/Titulo
+Path: /sitecore/templates/Feature/About/Team Item/content/Facebook
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180803T145819Z
+      Value: 20180806T114159Z
