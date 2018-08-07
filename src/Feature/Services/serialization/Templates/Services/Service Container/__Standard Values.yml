@@ -4,6 +4,11 @@ Parent: "ff22b32e-f762-4e86-b1ea-d03d34031144"
 Template: "ff22b32e-f762-4e86-b1ea-d03d34031144"
 Path: /sitecore/templates/Feature/Services/Service Container/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FF22B32E-F762-4E86-B1EA-D03D34031144}"
 Languages:
 - Language: en
   Versions:

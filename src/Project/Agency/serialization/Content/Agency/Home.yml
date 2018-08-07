@@ -8,6 +8,44 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{96730490-BEDB-4CC8-8A0D-8629A647DC7E}"
+          p:after="r[@uid='{8D27D200-807C-43CA-AA4D-87DD693FA5BE}']"
+          s:ds="{24E090B7-8D15-4D04-BF29-80E349945408}"
+          s:id="{CB000EAE-DDF4-4CB3-9424-6B297CB74898}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{9B1405DB-6E82-4802-B200-FAB31002A486}"
+          p:after="r[@uid='{96730490-BEDB-4CC8-8A0D-8629A647DC7E}']"
+          s:ds="{D83B234B-E636-4975-970B-306018F6CAFC}"
+          s:id="{11141853-EFCF-405E-AF0C-C171D13B6D20}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{0B271F15-B2DD-448B-AB81-7C05CBB65A4B}"
+          p:after="r[@uid='{9B1405DB-6E82-4802-B200-FAB31002A486}']"
+          s:ds="{61B22E66-BC16-456B-9100-226D16EA918D}"
+          s:id="{07D792EF-CC32-458D-BAD5-9A6C6CDFFC26}"
+          s:par=""
+          s:ph="content" />
+        <r
+          uid="{B92C1476-F75F-4FAD-9B2D-8D13A0DD173F}"
+          p:after="*[1=2]"
+          s:ds="{4325DD8E-2E3A-45E0-85FE-234242B3D044}"
+          s:id="{24C181CA-6043-4000-8278-9990FED9F57B}"
+          s:par=""
+          s:ph="content" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -22,16 +60,23 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{EDEC3BD5-786F-454E-BE84-E57D1E09D0B2}"
+              uid="{5F5F88F2-CF04-49A6-BA0D-5CF9D3487217}"
               p:before="*"
-              s:ds="{BC67C873-1B93-48EA-BFED-D0E061512500}"
+              s:ds="{61F3A357-F0DF-4DF7-86E3-7A4B4D4CEA65}"
               s:id="{593D7B69-6F5A-4DF1-AEBB-8F6E35B3A34C}"
               s:par=""
               s:ph="/content/service-item" />
             <r
               uid="{AB0106C3-BC83-4FD0-AAD3-6B57AEF0152B}"
-              p:after="r[@uid='{EDEC3BD5-786F-454E-BE84-E57D1E09D0B2}']"
+              p:after="r[@uid='{5F5F88F2-CF04-49A6-BA0D-5CF9D3487217}']"
               s:ds="{A908F78C-309D-4D21-8B90-B1B889ECF052}"
+              s:id="{593D7B69-6F5A-4DF1-AEBB-8F6E35B3A34C}"
+              s:par=""
+              s:ph="/content/service-item" />
+            <r
+              uid="{EDEC3BD5-786F-454E-BE84-E57D1E09D0B2}"
+              p:after="r[@uid='{AB0106C3-BC83-4FD0-AAD3-6B57AEF0152B}']"
+              s:ds="{BC67C873-1B93-48EA-BFED-D0E061512500}"
               s:id="{593D7B69-6F5A-4DF1-AEBB-8F6E35B3A34C}"
               s:par=""
               s:ph="/content/service-item" />
@@ -39,68 +84,84 @@ Languages:
               uid="{8D27D200-807C-43CA-AA4D-87DD693FA5BE}"
               s:ds="{FF5E06B0-40BD-4DF2-88AB-F2AEDE2C9685}" />
             <r
-              uid="{B1ABAD69-BC86-47B8-9B56-B0085977E63D}"
-              p:after="r[@uid='{8D27D200-807C-43CA-AA4D-87DD693FA5BE}']"
-              s:ds="{61B22E66-BC16-456B-9100-226D16EA918D}"
-              s:id="{07D792EF-CC32-458D-BAD5-9A6C6CDFFC26}"
-              s:par=""
-              s:ph="content" />
+              uid="{96730490-BEDB-4CC8-8A0D-8629A647DC7E}">
+              <p:d />
+            </r>
             <r
-              uid="{5F5F88F2-CF04-49A6-BA0D-5CF9D3487217}"
-              p:after="r[@uid='{B1ABAD69-BC86-47B8-9B56-B0085977E63D}']"
-              s:ds="{61F3A357-F0DF-4DF7-86E3-7A4B4D4CEA65}"
-              s:id="{593D7B69-6F5A-4DF1-AEBB-8F6E35B3A34C}"
-              s:par=""
-              s:ph="service-item" />
+              uid="{9B1405DB-6E82-4802-B200-FAB31002A486}">
+              <p:d />
+            </r>
             <r
-              uid="{E4C75F68-9601-45A9-B21C-73541BB3ABE1}"
-              p:after="r[@uid='{5F5F88F2-CF04-49A6-BA0D-5CF9D3487217}']"
-              s:ds="{4325DD8E-2E3A-45E0-85FE-234242B3D044}"
-              s:id="{24C181CA-6043-4000-8278-9990FED9F57B}"
-              s:par=""
-              s:ph="content" />
+              uid="{0B271F15-B2DD-448B-AB81-7C05CBB65A4B}">
+              <p:d />
+            </r>
+            <r
+              uid="{B92C1476-F75F-4FAD-9B2D-8D13A0DD173F}">
+              <p:d />
+            </r>
             <r
               uid="{98C7FEE5-708F-4209-8DC4-6A1B38A6E727}"
-              p:after="r[@uid='{E4C75F68-9601-45A9-B21C-73541BB3ABE1}']"
+              p:after="r[@uid='{8D27D200-807C-43CA-AA4D-87DD693FA5BE}']"
               s:ds="{AE0694E3-D848-4ACD-8923-10B50E24591C}"
               s:id="{B3C29953-EB56-46C9-8A94-D7FFC054E358}"
               s:par=""
               s:ph="portifolio-item" />
             <r
-              uid="{C0DD65D1-7DA7-4716-B840-435D374394BE}"
-              p:after="r[@uid='{98C7FEE5-708F-4209-8DC4-6A1B38A6E727}']"
-              s:ds="{24E090B7-8D15-4D04-BF29-80E349945408}"
-              s:id="{CB000EAE-DDF4-4CB3-9424-6B297CB74898}"
-              s:par=""
-              s:ph="content" />
-            <r
               uid="{EB4980D9-C1CF-4D3B-9725-F45FAC736DA9}"
-              p:after="r[@uid='{C0DD65D1-7DA7-4716-B840-435D374394BE}']"
+              p:after="r[@uid='{98C7FEE5-708F-4209-8DC4-6A1B38A6E727}']"
               s:ds="{C1453148-3513-48CB-8C25-D4B07EF69787}"
               s:id="{5B697F3E-AC62-4160-9371-5A8ECF5F85CE}"
               s:par=""
               s:ph="about-item" />
             <r
-              uid="{F2C7AAE8-8E1D-44EB-87B2-F9D5AFE0B6C4}"
-              p:after="r[@uid='{EB4980D9-C1CF-4D3B-9725-F45FAC736DA9}']"
-              s:ds="{D83B234B-E636-4975-970B-306018F6CAFC}"
-              s:id="{11141853-EFCF-405E-AF0C-C171D13B6D20}"
-              s:par=""
-              s:ph="content" />
-            <r
               uid="{C565A124-8A8E-4637-AF1E-6118F79E8AAD}"
-              p:after="r[@uid='{F2C7AAE8-8E1D-44EB-87B2-F9D5AFE0B6C4}']"
+              p:after="r[@uid='{EB4980D9-C1CF-4D3B-9725-F45FAC736DA9}']"
               s:ds="{97E6AAEE-E044-4A86-A0E3-353E76F022EE}"
               s:id="{5B697F3E-AC62-4160-9371-5A8ECF5F85CE}"
               s:par=""
               s:ph="about-item" />
             <r
               uid="{E935AED4-D16A-4E1C-A979-8153B61595A2}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{C565A124-8A8E-4637-AF1E-6118F79E8AAD}']"
               s:ds="{65343542-7F15-49E1-A9A0-DDE107D07ABA}"
               s:id="{BE7BE92E-6BC7-4AAD-8D2B-C82012BA6337}"
               s:par=""
               s:ph="team-item" />
+            <r
+              uid="{2D4143F0-AF1E-4EFD-B587-79894CCA2935}"
+              p:after="r[@uid='{E935AED4-D16A-4E1C-A979-8153B61595A2}']"
+              s:ds="{61B22E66-BC16-456B-9100-226D16EA918D}"
+              s:id="{07D792EF-CC32-458D-BAD5-9A6C6CDFFC26}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{697C37B3-60AB-4753-8A02-A65D396D3515}"
+              p:after="r[@uid='{2D4143F0-AF1E-4EFD-B587-79894CCA2935}']"
+              s:ds="{4325DD8E-2E3A-45E0-85FE-234242B3D044}"
+              s:id="{24C181CA-6043-4000-8278-9990FED9F57B}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{FD0FA10B-D6A7-4C03-B7F5-2C4ED0780B4D}"
+              p:after="r[@uid='{697C37B3-60AB-4753-8A02-A65D396D3515}']"
+              s:ds="{24E090B7-8D15-4D04-BF29-80E349945408}"
+              s:id="{CB000EAE-DDF4-4CB3-9424-6B297CB74898}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{ED381390-4EBD-42AC-8346-4BE341A3E9AE}"
+              p:after="r[@uid='{FD0FA10B-D6A7-4C03-B7F5-2C4ED0780B4D}']"
+              s:ds="{D83B234B-E636-4975-970B-306018F6CAFC}"
+              s:id="{11141853-EFCF-405E-AF0C-C171D13B6D20}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{0C6001B5-3F28-4A7F-960D-25D5B9156792}"
+              p:after="*[1=2]"
+              s:ds="{FDA741C6-9895-4FAD-9134-4F5CFA7B5484}"
+              s:id="{418F6A37-E4BD-4DC6-8D59-8F285646F29F}"
+              s:par=""
+              s:ph="footer" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"

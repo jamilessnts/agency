@@ -5,6 +5,10 @@ Template: "2aab3803-9cf9-4077-b79b-211b64fe10ae"
 Path: /sitecore/templates/Feature/Services/Service Item/__Standard Values
 DB: master
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{2AAB3803-9CF9-4077-B79B-211B64FE10AE}"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout

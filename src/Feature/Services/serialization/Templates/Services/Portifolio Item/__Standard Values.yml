@@ -4,6 +4,11 @@ Parent: "3fcf8127-d125-40c5-8b76-56ed63aa3219"
 Template: "3fcf8127-d125-40c5-8b76-56ed63aa3219"
 Path: /sitecore/templates/Feature/Services/Portifolio Item/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{3FCF8127-D125-40C5-8B76-56ED63AA3219}"
 Languages:
 - Language: en
   Versions:

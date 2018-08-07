@@ -1,0 +1,37 @@
+﻿---
+ID: "fda741c6-9895-4fad-9134-4f5cfa7b5484"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "2da2effc-add1-4d06-b72d-3277472230e2"
+Path: /sitecore/content/Agency/Home/Page Data/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T011502Z
+    - ID: "4b8694bf-b18c-4db1-b551-b8125cd3005a"
+      Hint: Privacy
+      Value: |
+        <link text="Privacy" linktype="external" url="http://facebook.com" anchor="" target="" />
+    - ID: "7be60e65-fdee-4da9-99af-6ec2a243abaf"
+      Hint: Twitter
+      Value: |
+        <link text="Twitter" linktype="external" url="https://twitter.com/" anchor="" target="" />
+    - ID: "804ff10c-d961-4624-8433-60716bd5c505"
+      Hint: Linkedin
+      Value: |
+        <link text="Linkedin" linktype="external" url="https://br.linkedin.com/" anchor="" target="" />
+    - ID: "82ee80ad-d44e-4bac-8d5f-8de02be18dcb"
+      Hint: Facebook
+      Value: |
+        <link text="Facebook" linktype="external" url="http://facebook.com" anchor="" target="" />
+    - ID: "9c9273ec-0ec0-468f-924f-207ea42468aa"
+      Hint: Copyright
+      Value: Copyright © Your Website 2018
+    - ID: "f172519e-43e3-45e1-8482-910caffab521"
+      Hint: Term of Use
+      Value: |
+        <link text="Term of Use" linktype="external" url="http://facebook.com" anchor="" target="" />

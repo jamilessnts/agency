@@ -1,0 +1,108 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.About.Models.Footer>
+@using Glass.Mapper.Sc.Web.Mvc
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Team Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">@Editable(x => x.Copyright)</span>
+                </div>
+                <div class="col-md-4">
+                    <!---->
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.Twitter, new { @class = "fa fa-twitter" }, true)
+                        </li>
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.Facebook, new { @class = "fa fa-facebook" }, true)
+                        </li>
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.Linkedin, new { @class = "fa fa-linkedin" }, true)
+                        </li>
+                    </ul>
+                    <!---->
+
+                </div>
+                <div class="col-md-4">
+                    <!---->
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.Privacy, true)
+                        </li>
+                        <li class="list-inline-item">
+                            @RenderLink(x => x.TermOfUse, true)
+                        </li>
+                    </ul>
+                    <!---->
+                </div>
+            </div>
+        </div>
+
+    }
+}
+
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">@Model.Copyright</span>
+            </div>
+            <div class="col-md-4">
+                <!---->
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        @if (Model.Twitter != null)
+                        {
+                            <a href="@Model.Twitter.Url">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        }
+                    </li>
+                    <li class="list-inline-item">
+                        @if (Model.Facebook != null)
+                        {
+                            <a href="@Model.Facebook.Url">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        }
+                    </li>
+                    <li class="list-inline-item">
+                        @if (Model.Linkedin != null)
+                        {
+                            <a href="@Model.Linkedin.Url">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        }
+                    </li>
+                </ul>
+                <!---->
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        @if (Model.Privacy != null)
+                        {
+                            <a href="@Model.Privacy.Url">
+                            </a>
+                        }
+                    </li>
+                    <li class="list-inline-item">
+                        @if (Model.TermOfUse != null)
+                        {
+                            <a href="@Model.TermOfUse.Url">
+                            </a>
+                        }
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+}
