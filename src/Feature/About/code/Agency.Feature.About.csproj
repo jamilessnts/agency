@@ -135,6 +135,8 @@
     <Content Include="Views\TeamContainer\TeamContainer.cshtml" />
     <Content Include="Views\TeamContainer\TeamItem.cshtml" />
     <Content Include="Views\Footer\Footer.cshtml" />
+    <Content Include="Views\Clients\Clients.cshtml" />
+    <Content Include="Views\Clients\ClientContainer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -151,10 +153,12 @@
   <ItemGroup>
     <Compile Include="Controllers\AboutContainerController.cs" />
     <Compile Include="Controllers\FooterController.cs" />
+    <Compile Include="Controllers\ClientsController.cs" />
     <Compile Include="Controllers\TeamContainerController.cs" />
     <Compile Include="Models\AboutContainer.cs" />
     <Compile Include="Models\AboutItem.cs" />
     <Compile Include="Models\Footer.cs" />
+    <Compile Include="Models\Clients.cs" />
     <Compile Include="Models\TeamContainer.cs" />
     <Compile Include="Models\TeamItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

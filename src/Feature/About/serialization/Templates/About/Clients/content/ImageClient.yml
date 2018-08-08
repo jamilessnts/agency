@@ -1,16 +1,13 @@
 ﻿---
-ID: "02d89cc7-b2f0-4561-9ee4-732b9055e7a3"
-Parent: "9d1f2bed-aa3d-4842-9f41-c4ce2bfa4183"
+ID: "6bd5a262-d385-4603-902c-6a8f19551ae4"
+Parent: "b35fa0d2-7482-4560-97b2-53efe785d48e"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/About/Team Item/content/Image
+Path: /sitecore/templates/Feature/About/Clients/content/ImageClient
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Image
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -18,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180806T114159Z
+      Value: 20180807T192934Z

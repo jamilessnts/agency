@@ -1,0 +1,18 @@
+﻿---
+ID: "21db008c-39ce-42f9-8746-e78ffafa3db8"
+Parent: "d30f1dbb-c180-403a-a53f-e97ac7d1cf70"
+Template: "d30f1dbb-c180-403a-a53f-e97ac7d1cf70"
+Path: /sitecore/templates/Feature/About/Client Container/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180807T200259Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
