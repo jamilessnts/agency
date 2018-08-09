@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Agency.Feature.About.Models
+namespace Agency.Feature.Media.Models
 {
-    public class Footer: SitecoreItem
+    public class PageFooter:SitecoreItem
     {
         public virtual string Copyright { get; set; }
         public virtual Link Twitter { get; set; }
@@ -17,6 +17,5 @@ namespace Agency.Feature.About.Models
         public virtual Link Privacy { get; set; }
         [SitecoreField("Term of Use")]
         public virtual Link TermOfUse { get; set; }
-
     }
 }

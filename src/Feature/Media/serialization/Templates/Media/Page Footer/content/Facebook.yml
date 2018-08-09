@@ -1,8 +1,8 @@
 ﻿---
-ID: "82ee80ad-d44e-4bac-8d5f-8de02be18dcb"
-Parent: "fd744448-7223-4d62-8d63-5ac84f4a46fc"
+ID: "3213456a-b529-4e1e-ac9e-1782c0bd7977"
+Parent: "2551a2fe-dd36-4b93-b9ce-850bf0710a2b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/About/Footer/content/Facebook
+Path: /sitecore/templates/Feature/Media/Page Footer/content/Facebook
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"

@@ -1,4 +1,5 @@
-﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.About.Models.Footer>
+﻿
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.Media.Models.PageFooter>
 @using Glass.Mapper.Sc.Web.Mvc
 
 @if (IsInEditingMode)
@@ -18,13 +19,23 @@
                     <!---->
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            @RenderLink(x => x.Twitter, new { @class = "fa fa-twitter" }, true)
+                            @using (BeginRenderLink(x => x.Twitter, null, true))
+                            {
+                                <i class="fa fa-twitter"></i>
+                            }
+                        </li>
+                        
+                        <li class="list-inline-item">
+                            @using (BeginRenderLink(x => x.Facebook, null, true))
+                            {
+                                <i class="fa fa-facebook"></i>
+                            }
                         </li>
                         <li class="list-inline-item">
-                            @RenderLink(x => x.Facebook, new { @class = "fa fa-facebook" }, true)
-                        </li>
-                        <li class="list-inline-item">
-                            @RenderLink(x => x.Linkedin, new { @class = "fa fa-linkedin" }, true)
+                            @using (BeginRenderLink(x => x.Linkedin, null, true))
+                            {
+                                <i class="fa fa-linkedin"></i>
+                            }
                         </li>
                     </ul>
                     <!---->
@@ -34,10 +45,10 @@
                     <!---->
                     <ul class="list-inline quicklinks">
                         <li class="list-inline-item">
-                            @RenderLink(x => x.Privacy, true)
+                            @RenderLink(x => x.Privacy, isEditable: true)
                         </li>
                         <li class="list-inline-item">
-                            @RenderLink(x => x.TermOfUse, true)
+                            @RenderLink(x => x.TermOfUse, isEditable: true)
                         </li>
                     </ul>
                     <!---->

@@ -1,0 +1,22 @@
+﻿---
+ID: "f0d376b9-f7ab-483c-a698-67ba1866a64d"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "8585147a-1260-45de-bd4c-b09592e0748a"
+Path: /sitecore/content/Agency/Home/Page Data/Page Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180809T140132Z
+    - ID: "4627208d-1027-46ae-bec7-c699cf9feac9"
+      Hint: Privacy
+      Value: |
+        <link text="Privacy Police" linktype="external" url="http://www.google.com" anchor="" target="" />
+    - ID: "f63792d7-7232-44cc-a4f0-997d5e9cbb26"
+      Hint: Term of Use
+      Value: |
+        <link text="Term of Use" linktype="external" url="http://www.google.com" anchor="" target="" />

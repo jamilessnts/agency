@@ -1,8 +1,8 @@
 ﻿---
-ID: "b0d214ef-2fc0-43e0-9d23-b00eb2e51a52"
-Parent: "2da2effc-add1-4d06-b72d-3277472230e2"
-Template: "2da2effc-add1-4d06-b72d-3277472230e2"
-Path: /sitecore/templates/Feature/About/Footer/__Standard Values
+ID: "b5f4808c-a6ec-4755-858b-74be5547fe6d"
+Parent: "8585147a-1260-45de-bd4c-b09592e0748a"
+Template: "8585147a-1260-45de-bd4c-b09592e0748a"
+Path: /sitecore/templates/Feature/Media/Page Footer/__Standard Values
 DB: master
 Languages:
 - Language: en

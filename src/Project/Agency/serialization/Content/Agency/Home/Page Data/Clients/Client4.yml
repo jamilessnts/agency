@@ -15,4 +15,4 @@ Languages:
     - ID: "6bd5a262-d385-4603-902c-6a8f19551ae4"
       Hint: ImageClient
       Value: |
-        <image mediaid="{18F40914-0028-4DA9-B802-CFFEC4392490}" />
+        <image mediaid="{18F40914-0028-4DA9-B802-CFFEC4392490}" ></image>

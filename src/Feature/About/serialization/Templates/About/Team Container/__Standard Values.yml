@@ -22,11 +22,5 @@ Languages:
       Value: |
         sitecore\admin
     - ID: "6d57c3c9-c6a6-444a-85b7-04f7cfc475a3"
-      Hint: Titulo
+      Hint: Title
       Value: $name
-    - ID: "81986a7b-6d93-4e22-9fc5-c397b2b183f6"
-      Hint: Subtitulo
-      Value: Lorem ipsum dolor sit amet consectetur.
-    - ID: "ae456b88-d058-4108-ac1c-469b98376780"
-      Hint: Titulo
-      Value: ABOUT

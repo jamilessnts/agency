@@ -152,6 +152,8 @@
     <Content Include="assets\css\agency.css" />
     <Content Include="assets\css\agency.min.css" />
     <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\img\header-bg.jpg" />
+    <Content Include="assets\img\map-image.png" />
     <Content Include="assets\js\agency.js" />
     <Content Include="assets\js\agency.min.js" />
     <Content Include="assets\js\bootstrap.bundle.js" />

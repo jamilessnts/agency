@@ -26,7 +26,7 @@ Languages:
       Value: $name
     - ID: "eeb13e14-a768-4bad-97a8-5f50693e32e3"
       Hint: Category
-      Value: $name
+      Value: 
     - ID: "f14eca0b-7f7d-4d06-9dbb-3e9441b4a1dd"
       Hint: Client
-      Value: $name
+      Value: 
