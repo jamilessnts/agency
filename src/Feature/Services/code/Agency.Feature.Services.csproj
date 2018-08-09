@@ -136,13 +136,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\PortifolioContainer\PortifolioContainer.cshtml" />
     <Content Include="Views\PortifolioContainer\PortifolioItem.cshtml" />
-    <None Include="Views\Web.config" />
-    <None Include="Views\Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Views\Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+    <Content Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

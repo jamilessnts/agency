@@ -11,7 +11,9 @@ SharedFields:
 - ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
   Hint: Page Editor Buttons
   Type: Treelist
-  Value: "{0BF07845-56FD-4F03-8F7C-95250ED18C0F}"
+  Value: |
+    {0BF07845-56FD-4F03-8F7C-95250ED18C0F}
+    {2D07EE1B-061F-4AD1-973B-0BEB8F8742C6}
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: ./Page Data/Services

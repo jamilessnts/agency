@@ -185,9 +185,16 @@ Languages:
               s:ph="clients" />
             <r
               uid="{7B5C3675-AEEA-44D2-AB81-085CDBBB7A1C}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{455824F9-761E-4BDC-A6B6-41FC874F0E69}']"
               s:ds="{06E899DD-FB05-4731-AB62-7A3AA0282411}"
               s:id="{4B886C77-D8DD-40FF-9102-65EF5BF4D07C}"
+              s:par=""
+              s:ph="content" />
+            <r
+              uid="{5C068AE7-2429-4FD4-BDEC-7757204BAECA}"
+              p:after="*[1=2]"
+              s:ds="{03916FDE-3951-4345-A871-5B34F3F67DEB}"
+              s:id="{20D7F265-7561-47D4-8CE9-3F3088777B2A}"
               s:par=""
               s:ph="content" />
           </d>

@@ -22,12 +22,6 @@ namespace Agency.Feature.Services.Controllers
             var portifolioItem = this.GetDataSourceItem<PortifolioItem>();
             return View(portifolioItem);
         }
-
-        //public ActionResult PortifolioModal()
-        //{
-        //    var portifolioModal = this.GetDataSourceItem<PortifolioModal>();
-        //    return View(portifolioModal);
-        //}
-
+        
     }
 }

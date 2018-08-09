@@ -1,26 +1,22 @@
 ﻿---
-ID: "5b697f3e-ac62-4160-9371-5a8ecf5f85ce"
+ID: "20d7f265-7561-47d4-8ce9-3f3088777b2a"
 Parent: "f6a73210-a152-49af-9012-d816ae1f7fd4"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: "/sitecore/layout/Renderings/Feature/About/about-item"
+Path: /sitecore/layout/Renderings/Feature/About/ContactContainer
 DB: master
 SharedFields:
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/About/About Item
-- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
-  Hint: Page Editor Buttons
-  Type: Treelist
-  Value: "{C4A6381F-F0D3-4135-B92B-54FD6E0E999C}"
+  Value: /sitecore/templates/Feature/Contact/Contact Container
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: ./Page Data/About
+  Value: ./Page Data
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: AboutItem
+  Value: ContactContainer
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Agency.Feature.About.Controllers.AboutContainerController, Agency.Feature.About
+  Value: Agency.Feature.About.Controllers.ContactController, Agency.Feature.About
 Languages:
 - Language: en
   Versions:
@@ -28,4 +24,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180803T161903Z
+      Value: 20180808T184134Z
