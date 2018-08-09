@@ -1,0 +1,17 @@
+﻿---
+ID: "4fcfd04a-334d-45fb-8cec-04e87c68d6b1"
+Parent: "474525c0-9190-4022-88eb-00d7debd3ed6"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: "/sitecore/layout/Renderings/Feature/Contact/contact-form"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/16x16/phone_speech_bubble.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20180809T184939:636694373790483444Z"

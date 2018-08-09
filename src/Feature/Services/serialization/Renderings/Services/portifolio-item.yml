@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: "http://agency.local/temp/iconcache/applications/32x32/form_blue_edit.png"
+  Value: Office/16x16/portfolio_folder.png
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
@@ -21,7 +21,7 @@ SharedFields:
   Value: 0
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: ./Page Data/Portifolios
+  Value: ./Page Data/Portfolio
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: PortifolioItem

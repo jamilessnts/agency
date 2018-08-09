@@ -1,0 +1,17 @@
+﻿---
+ID: "d86f39a3-f837-47e5-969a-f4a58ce6c752"
+Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
+Template: "b02e47cf-eb63-4abd-850f-f54d0b6f14d3"
+Path: /sitecore/content/Agency/Home/Page Data/Teams
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180809T191334Z
+    - ID: "6d57c3c9-c6a6-444a-85b7-04f7cfc475a3"
+      Hint: Title
+      Value: Teams

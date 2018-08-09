@@ -8,16 +8,7 @@ SharedFields:
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
-  Value: |
-    <r>
-      <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-        <p
-          key="content"
-          uid="{3723B0F4-CF43-4007-A542-5938AE4326A9}"
-          md="{7E52847F-61EA-4228-AE4F-3B089D790519}" />
-      </d>
-    </r>
+  Value: 
 Languages:
 - Language: en
   Versions:

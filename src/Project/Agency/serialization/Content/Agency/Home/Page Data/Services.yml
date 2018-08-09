@@ -1,25 +1,14 @@
 ﻿---
-ID: "61b22e66-bc16-456b-9100-226d16ea918d"
+ID: "12ef760d-df47-444f-a696-3f57c686b209"
 Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
 Template: "ff22b32e-f762-4e86-b1ea-d03d34031144"
 Path: /sitecore/content/Agency/Home/Page Data/Services
 DB: master
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Type: TreelistEx
-  Value: "{2AAB3803-9CF9-4077-B79B-211B64FE10AE}"
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "1a005f77-1311-4e78-94d4-9821b5642e21"
-      Hint: Subtitle
-      Value: Lorem ipsum dolor sit amet consectetur.
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180802T014010Z
-    - ID: "cd6db75f-0741-4608-a042-3afbebe0f9a7"
-      Hint: Title
-      Value: SERVICES
+      Value: 20180809T190116Z

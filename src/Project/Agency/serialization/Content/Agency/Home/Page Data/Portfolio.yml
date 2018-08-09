@@ -1,8 +1,8 @@
 ﻿---
-ID: "0204839f-a820-4383-a9a3-2d85ef50bcd5"
+ID: "95df5ea1-d21f-4e44-a8a4-cc9198df3b48"
 Parent: "84b13a1a-5e26-4ad2-a7b4-4bda8550060c"
-Template: "b4b8f7a2-f53f-4be4-98ea-87d7fa783e0d"
-Path: /sitecore/content/Agency/Home/Page Data/Contact
+Template: "23ff36ec-77b8-43fb-9776-fdd760b35dcb"
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180809T174223Z
+      Value: 20180809T200939Z

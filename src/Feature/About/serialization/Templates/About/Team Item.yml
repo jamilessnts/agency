@@ -12,6 +12,19 @@ SharedFields:
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <p
+          key="content"
+          uid="{39AE0868-DE0F-4CBC-9BD2-7B86B767159D}"
+          md="{2CA68287-9A1D-40F5-8886-ABAE3BB5F894}" />
+      </d>
+    </r>
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{A4D55AD0-4201-4776-95A5-614CA1655857}"
