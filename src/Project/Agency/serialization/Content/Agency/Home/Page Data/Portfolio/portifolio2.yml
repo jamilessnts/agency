@@ -1,8 +1,8 @@
 ﻿---
-ID: "5cdea93c-d452-43a2-b167-1c7d2f58cb06"
+ID: "9b2f7994-82f6-4538-9cb2-6543eba8c118"
 Parent: "95df5ea1-d21f-4e44-a8a4-cc9198df3b48"
 Template: "3fcf8127-d125-40c5-8b76-56ed63aa3219"
-Path: /sitecore/content/Agency/Home/Page Data/Portfolio/Portifolio1
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio/portifolio2
 DB: master
 Languages:
 - Language: en
@@ -11,24 +11,17 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180809T201330Z
-    - ID: "5053e35c-1531-49a6-86d4-bfb2c7be7911"
-      Hint: Subtitle Name
-      Value: teste
+      Value: 20180810T114251Z
     - ID: "6eb3b059-3a2b-445b-a517-c4a4f3f9a3c0"
       Hint: Image
       Value: |
-        <image mediaid="{8DBCBACF-7316-46B4-B36C-029612A09E0E}" />
+        <image mediaid="{EA33AD63-1EB6-4D6F-91A6-A1203715ADEF}" />
     - ID: "e68a3e74-5f6d-4a99-b47f-92ae87463b16"
       Hint: Project Name
-      Value: Portifolio1
+      Value: portifolio2
     - ID: "eeb13e14-a768-4bad-97a8-5f50693e32e3"
       Hint: Category
-      Value: Illustration
-    - ID: "ef22e330-1c2a-4ff0-8b18-d8b3a83e4aae"
-      Hint: ImageModal
-      Value: |
-        <image mediaid="{F010E3B1-691F-4285-A659-9D21743F43B1}" />
+      Value: Graphic Design
     - ID: "f14eca0b-7f7d-4d06-9dbb-3e9441b4a1dd"
       Hint: Client
-      Value: Threads
+      Value: Explore

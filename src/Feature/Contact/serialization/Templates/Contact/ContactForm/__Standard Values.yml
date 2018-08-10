@@ -1,0 +1,30 @@
+﻿---
+ID: "a7d0095a-eabf-44db-be29-2b4090d5403c"
+Parent: "0a6ad0e7-5dfd-4197-addb-487b5181104a"
+Template: "0a6ad0e7-5dfd-4197-addb-487b5181104a"
+Path: /sitecore/templates/Feature/Contact/ContactForm/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a0a04ac-f5ee-4caf-9ffc-e0a607eb747b"
+      Hint: Email
+      Value: your@email.com
+    - ID: "15da6fdd-2b99-4061-9066-0374082baa4b"
+      Hint: Fullname
+      Value: your name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180809T203724Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "d7b2565e-d9cf-474a-9065-2a716cb75fa9"
+      Hint: Message
+      Value: Leave a message
+    - ID: "ec2df645-37a3-4ab9-9cb2-4ac17718617b"
+      Hint: Phone
+      Value: your phone

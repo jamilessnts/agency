@@ -9,13 +9,29 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "0163b988-a8d3-4be1-a662-d2982db7eb57"
+      Hint: Twitter
+      Value: |
+        <link text="Twitter" linktype="external" url="https://twitter.com/" anchor="" target="" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180807T005733Z
+    - ID: "3213456a-b529-4e1e-ac9e-1782c0bd7977"
+      Hint: Facebook
+      Value: |
+        <link text="Facebook" linktype="external" url="http://facebook.com" anchor="" target="" />
+    - ID: "4627208d-1027-46ae-bec7-c699cf9feac9"
+      Hint: Privacy
+      Value: |
+        <link text="Privacy Police" linktype="external" url="http://www.google.com" anchor="" target="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "763d54a8-0372-423c-9bb1-940e40358f5a"
+      Hint: Linkedin
+      Value: |
+        <link text="Linkedin" linktype="external" url="https://br.linkedin.com/" anchor="" target="" />
     - ID: "7be60e65-fdee-4da9-99af-6ec2a243abaf"
       Hint: Twitter
       Value: |
@@ -31,3 +47,10 @@ Languages:
     - ID: "9c9273ec-0ec0-468f-924f-207ea42468aa"
       Hint: Copyright
       Value: Copyright © Your Website 2018
+    - ID: "cf8c36f7-c810-4feb-ba92-0cfdae0da657"
+      Hint: Copyright
+      Value: Copyright © Your Website 2018
+    - ID: "f63792d7-7232-44cc-a4f0-997d5e9cbb26"
+      Hint: Term of Use
+      Value: |
+        <link text="Term of Use" linktype="external" url="http://www.google.com" anchor="" target="" />

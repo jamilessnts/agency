@@ -1,0 +1,27 @@
+﻿---
+ID: "51b49839-a1a2-488b-8088-9d49f7656456"
+Parent: "24e090b7-8d15-4d04-bf29-80e349945408"
+Template: "93646a3b-c296-42bb-9cae-1915a53e1aaa"
+Path: /sitecore/content/Agency/Home/Page Data/About/about3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180810T115030Z
+    - ID: "b6ce973e-2be0-4729-9fc1-ea4825796809"
+      Hint: Description
+      Value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    - ID: "c489ac2c-84b0-4c0d-88dc-f7bb9d8e89ba"
+      Hint: Title
+      Value: December 2012
+    - ID: "c58865db-f00d-46ee-a79e-42d0e26dd0ec"
+      Hint: Subtitle
+      Value: Transition to Full Service
+    - ID: "d49e8e49-f00d-4af2-94d8-04cca78d2a60"
+      Hint: Image
+      Value: |
+        <image mediaid="{C80751FC-0CF5-4A5E-B574-91E58C01EC92}" />
