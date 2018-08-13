@@ -2,7 +2,7 @@
 ID: "5cdea93c-d452-43a2-b167-1c7d2f58cb06"
 Parent: "95df5ea1-d21f-4e44-a8a4-cc9198df3b48"
 Template: "3fcf8127-d125-40c5-8b76-56ed63aa3219"
-Path: /sitecore/content/Agency/Home/Page Data/Portfolio/Portifolio1
+Path: /sitecore/content/Agency/Home/Page Data/Portfolio/Threads
 DB: master
 Languages:
 - Language: en
@@ -14,14 +14,20 @@ Languages:
       Value: 20180809T201330Z
     - ID: "5053e35c-1531-49a6-86d4-bfb2c7be7911"
       Hint: Subtitle Name
-      Value: teste
+      Value: Lorem ipsum dolor sit amet consectetur.
+    - ID: "59e5bec0-4336-4ae4-8980-9e48954037d1"
+      Hint: DescriptionModal
+      Value: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
     - ID: "6eb3b059-3a2b-445b-a517-c4a4f3f9a3c0"
       Hint: Image
       Value: |
         <image mediaid="{8DBCBACF-7316-46B4-B36C-029612A09E0E}" />
+    - ID: "ad68d776-b66a-4acd-8fbf-d24539507363"
+      Hint: Date
+      Value: 20180808T030000Z
     - ID: "e68a3e74-5f6d-4a99-b47f-92ae87463b16"
       Hint: Project Name
-      Value: Portifolio1
+      Value: Project Threads
     - ID: "eeb13e14-a768-4bad-97a8-5f50693e32e3"
       Hint: Category
       Value: Illustration
