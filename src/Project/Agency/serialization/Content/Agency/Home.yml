@@ -237,11 +237,25 @@ Languages:
               s:ph="portifolio-item" />
             <r
               uid="{BF41C97B-512E-4D6A-8C0D-AA2263FCE610}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{5F250941-CC17-49DA-BB5D-EF9DA7F9597D}']"
               s:ds="{F53B6776-29C2-46FD-A64E-C64CF10B6171}"
               s:id="{4FCFD04A-334D-45FB-8CEC-04E87C68D6B1}"
               s:par=""
               s:ph="contact-form" />
+            <r
+              uid="{98EFF2D4-6461-4F93-8804-EB67642A5AB6}"
+              p:after="r[@uid='{BF41C97B-512E-4D6A-8C0D-AA2263FCE610}']"
+              s:ds="{AE1AA62A-22ED-4BAA-9B2B-9E622160D9E5}"
+              s:id="{BE7BE92E-6BC7-4AAD-8D2B-C82012BA6337}"
+              s:par=""
+              s:ph="team-item" />
+            <r
+              uid="{3C6E7BCB-A44A-4A3F-9052-D42DB6DD0190}"
+              p:after="*[1=2]"
+              s:ds="{23C12921-1EFE-4340-844F-4B308F9487A7}"
+              s:id="{BE7BE92E-6BC7-4AAD-8D2B-C82012BA6337}"
+              s:par=""
+              s:ph="team-item" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
