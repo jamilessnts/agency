@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Contact\ContactForm.cshtml" />
+    <Content Include="Views\Contact\Confirmation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

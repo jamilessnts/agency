@@ -22,5 +22,11 @@ namespace Agency.Feature.ContactUs.Controllers
             var contactForm = this.GetDataSourceItem<ContactForm>();
             return View(contactForm);
         }
+        [HttpPost]
+        public ActionResult ContactForm(string name, string  email, string fone, string message)
+        {
+            var contactForm = this.GetDataSourceItem<ContactForm>();
+            return View("~/Views/Contact/Confirmation.cshtml");
+        }
     }
 }
