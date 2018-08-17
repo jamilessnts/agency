@@ -16,7 +16,9 @@
                     <li class="nav-item">
                         @if (menuItem.Link != null)
                         {
-                            <a class="nav-link js-scroll-trigger" href="@menuItem.Link.Url">@menuItem.Name</a>
+
+                            var teste = menuItem.Link.Anchor != string.Empty ? string.Format("{0}{1}","#", menuItem.Link.Anchor) : menuItem.Link.Url;
+                            <a class="nav-link js-scroll-trigger" href="@teste ">@menuItem.Name</a>
                         }
                         else
                         {
