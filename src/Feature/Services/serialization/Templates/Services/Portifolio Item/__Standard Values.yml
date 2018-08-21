@@ -36,7 +36,7 @@ Languages:
         sitecore\admin
     - ID: "e68a3e74-5f6d-4a99-b47f-92ae87463b16"
       Hint: Project Name
-      Value: $name
+      Value: Project $name
     - ID: "eeb13e14-a768-4bad-97a8-5f50693e32e3"
       Hint: Category
       Value: 

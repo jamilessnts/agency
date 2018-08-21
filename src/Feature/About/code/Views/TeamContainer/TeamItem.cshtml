@@ -53,9 +53,10 @@ else if (!IsInEditingMode && Html.Glass().Model != null)
                 <li class="list-inline-item">
                     @if (Model.Twitter != null)
                     {
-                        <a href="@Model.Twitter.Url">
-                            <i class="fa fa-twitter"></i>
-                        </a>
+                    <a href="@Model.Twitter.Url">
+                        @*@Html.Sitecore().Placeholder("service-item")*@
+                        <i class="fa fa-twitter"></i>
+                    </a>
                     }
                 </li>
                 <li class="list-inline-item">

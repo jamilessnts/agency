@@ -17,6 +17,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20180806T104842Z
+    - ID: "62c0fd0b-5025-45b9-b208-c90df96c1768"
+      Hint: Inverted
+      Type: Checkbox
+      Value: 0
     - ID: "b6ce973e-2be0-4729-9fc1-ea4825796809"
       Hint: Description
       Value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"

@@ -137,6 +137,7 @@
     <Content Include="Views\Clients\Clients.cshtml" />
     <Content Include="Views\Clients\ClientContainer.cshtml" />
     <Content Include="Views\Contact\ContactContainer.cshtml" />
+    <Content Include="Views\TeamContainer\TeamIcon.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -160,6 +161,7 @@
     <Compile Include="Models\ContactContainer.cs" />
     <Compile Include="Models\Clients.cs" />
     <Compile Include="Models\TeamContainer.cs" />
+    <Compile Include="Models\TeamIcon.cs" />
     <Compile Include="Models\TeamItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

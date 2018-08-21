@@ -1,0 +1,21 @@
+﻿
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Agency.Feature.About.Models.TeamIcon>
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+
+@if (IsInEditingMode)
+{
+    if (Html.Glass().Model == null)
+    {
+        <p>Team Item - No datasource found, please associate a datasource.</p>
+    }
+    else
+    {
+        <i class="fa fa-twitter"></i>
+    }
+}
+else if (!IsInEditingMode && Html.Glass().Model != null)
+{
+    <i class="@Model.SocialIcon"></i>
+}

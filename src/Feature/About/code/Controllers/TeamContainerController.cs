@@ -22,5 +22,11 @@ namespace Agency.Feature.About.Controllers
             var teamItem = this.GetDataSourceItem<TeamItem>();
             return View(teamItem);
         }
+
+        public ActionResult TeamIcon()
+        {
+            var teamIcon = this.GetDataSourceItem<TeamIcon>();
+            return View(teamIcon);
+        }
     }
 }

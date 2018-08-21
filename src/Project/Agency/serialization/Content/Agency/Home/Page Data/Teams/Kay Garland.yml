@@ -1,8 +1,8 @@
 ﻿---
-ID: "23c12921-1efe-4340-844f-4b308f9487a7"
+ID: "3571ee44-919f-4293-9029-256aad1951ad"
 Parent: "d86f39a3-f837-47e5-969a-f4a58ce6c752"
 Template: "34c9d2b2-541f-403e-b6ad-2826894fe708"
-Path: /sitecore/content/Agency/Home/Page Data/Teams/item3
+Path: /sitecore/content/Agency/Home/Page Data/Teams/Kay Garland
 DB: master
 Languages:
 - Language: en
@@ -12,13 +12,13 @@ Languages:
     - ID: "02d89cc7-b2f0-4561-9ee4-732b9055e7a3"
       Hint: Image
       Value: |
-        <image mediaid="{D080C469-4D78-4FF9-BA79-467083DAE323}" />
+        <image mediaid="{70062B68-4AF2-496C-B442-75C534689C4C}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180810T114913Z
+      Value: 20180809T192528Z
     - ID: "40654950-a70e-4cc9-adc3-2cc61e60fbed"
       Hint: Fname
-      Value: Diana Pertersen
+      Value: Kay Garland
     - ID: "e0ff77dd-f1bd-4447-8c0b-219f4705354f"
       Hint: Job
-      Value: Lead Developer
+      Value: Lead Designer
